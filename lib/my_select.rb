@@ -4,6 +4,7 @@ def my_select(collection)
  while i < collection 
  if yiled(arr[i]) == true
    new_arr << arr[i]
+ end
  i += 1 
  end
 end
