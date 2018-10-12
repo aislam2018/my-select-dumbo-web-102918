@@ -1,7 +1,7 @@
 def my_select(collection)
  new_arr = []
  i = 0 
- while i < collection 
+ while i < collection.length 
   if yield(arr[i]) == true 
     new_arr << arr[i]
   end
