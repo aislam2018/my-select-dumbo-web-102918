@@ -5,4 +5,5 @@ def my_select(collection)
  if yiled(arr[i]) == true
    new_arr << arr[i]
  i += 1 
+ end
 end
